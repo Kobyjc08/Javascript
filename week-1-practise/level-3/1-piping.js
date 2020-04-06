@@ -11,20 +11,21 @@
 */
 
 var startingValue = 5;
+let result = format(add((multiply(startingValue, 2)), 10))
 
 /* DO NOT EDIT BELOW THIS LINE */
 /* --------------------------- */
 
 function add(a, b) {
-  return a + b;
+    return a + b;
 }
 
 function multiply(a, b) {
-  return a * b;
+    return a * b;
 }
 
 function format(num) {
-  return "£" + num.toFixed(2);
+    return "£" + num.toFixed(2);
 }
 
 console.log("Expected result: 20.00");
