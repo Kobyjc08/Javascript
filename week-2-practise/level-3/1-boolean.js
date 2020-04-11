@@ -2,13 +2,13 @@
 // Refactor the code to make it better
 // What was wrong with the original code?
 // Leave comments above your changes to explain
-
-var isHappy = "false";
+// I just remove the quotes of the var 
+var isHappy = false;
 
 if (isHappy == true) {
-  console.log("I am happy");
+    console.log("I am happy");
 } else {
-  console.log("I am not happy");
+    console.log("I am not happy");
 }
 
 /* 
